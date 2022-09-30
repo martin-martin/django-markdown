@@ -1,0 +1,6 @@
+<h1>My Posts</h1>
+
+{% for post_text in posts %}
+    <h2>New Post</h2>
+    {{ post_text | safe }}
+{% endfor %}
